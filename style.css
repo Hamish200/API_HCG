@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images4.alphacoders.com/606/thumbbig-606024.webp");
+    background-color: #fff;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Peralta', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: #fff;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-container{
+    max-width: 25rem;  
+    display: flex;
+    margin: 1rem;
+}
+
+#container{
+    margin: 1rem;
+    background: rgb(255, 255, 255, 0.473);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(209, 213, 219, 0.726);
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    margin: auto;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    height: 4rem;
+    width: 2.5rem;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.next{
+    clip-path: polygon(100% 53%, 0 0, 0 100%);
+    background-color:rgb(70, 119, 119)
+}
+
+.next:hover{
+    background-color: rgb(92, 10, 10);
+}
+
+.preview{
+    clip-path: polygon(100% 100%, 100% 0, 0 54%);
+    background-color: rgb(202, 200, 75);
+}
+
+.preview:hover{
+    background-color: rgb(219, 182, 61);
+}
+
+.data-api{
+    color: rgb(4, 128, 0);
+}
+
+.rick{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 10rem;
+}
+
+.morty{
+    height: 15rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+
+}
+
